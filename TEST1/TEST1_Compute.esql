@@ -5,7 +5,7 @@ CREATE COMPUTE MODULE TEST1_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
-		SET OutputRoot.XMLNSC.status='done1';
+		SET OutputRoot.XMLNSC.status='done5';
 		RETURN TRUE;
 	END;
 
